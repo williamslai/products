@@ -11,3 +11,6 @@ while True:
 	products.append(p)
 	#products.append([name, price]) 上面兩行可以變成這一行。
 print(products)
+
+for p in products:
+	print('商品',p[0],'的價格是：',p[1])
